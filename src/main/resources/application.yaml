@@ -3,9 +3,9 @@ spring:
         name : devicesRegistry
 
     datasource:
-        url: jdbc:postgresql://c-mlopsdvregistrydb.jpvkychhvethk3.postgres.cosmos.azure.com:5432/dvregistry_db?sslmode=require
-        username: citus
-        password: asdfghjkl!@#123
+        url: jdbc:postgresql://db.gedbzyncroztaynopauh.supabase.co:5432/postgres?sslmode=require
+        username: postgres
+        password: Asdfghjkl!@#123
         driver-class-name: org.postgresql.Driver
 
 
