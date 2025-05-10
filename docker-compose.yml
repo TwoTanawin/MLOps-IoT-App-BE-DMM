@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  devices-registry:
+    build: .
+    container_name: devices-registry-app
+    ports:
+      - "8180:8180"
+    environment:
+      - SPRING_PROFILES_ACTIVE=default
+    networks:
+      - mlops_network
+
+networks:
+  mlops_network:

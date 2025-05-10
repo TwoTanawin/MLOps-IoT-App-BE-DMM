@@ -1,0 +1,17 @@
+services:
+  mlops_dvregistry_svc:
+    image: postgres:16
+    container_name: dvregistry_db
+    platform: linux/amd64
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=dvregistry_db
+    ports:
+      - "5434:5432"
+    networks:
+      - mlops_network
+
+networks:
+  mlops_network:
+    driver: bridge
