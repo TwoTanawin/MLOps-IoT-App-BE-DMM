@@ -5,7 +5,7 @@ services:
     build: .
     container_name: devices-registry-app
     ports:
-      - "8180:8180"
+      - "80:80"
     environment:
       - SPRING_PROFILES_ACTIVE=default
     networks:

@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Variables
-SERIAL_NUMBER="SN-47F2B3CE"
-ACTIVE=false
-PORT=8180
+SERIAL_NUMBER="SN-8125B710"
+ACTIVE=true
+PORT=80
 BASE_URL="http://localhost:$PORT/api/v1/devices"
 
 # Send PUT request
