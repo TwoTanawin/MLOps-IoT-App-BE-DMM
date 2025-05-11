@@ -2,7 +2,7 @@
 
 # Variables
 SERIAL_NUMBER="SN-8125B710"
-ACTIVE=true
+ACTIVE=false
 PORT=80
 BASE_URL="http://localhost:$PORT/api/v1/devices"
 
